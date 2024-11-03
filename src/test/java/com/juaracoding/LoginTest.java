@@ -60,14 +60,14 @@ public class LoginTest {
 
     @When("I enter an empty username an empty and password")
     public void i_enter_an_invalid_username_or_password() {
-        loginPage.loginUser(" ", " ");
+        loginPage.loginUser("", "");
         Utils.delay(2);
         extentTest.log(LogStatus.PASS, "I enter empty field");
     }
 
     @Then("I see message invalid credentials")
     public void i_see_message_invalid_credentials() {
-        Assert.assertEquals(loginPage.getTxtInvalid(), "Epic sadface: Username and password do not match any user in this service");
+        Assert.assertEquals(loginPage.getTxtInvalid(), "Epic sadface: Username is required");
         Utils.delay(2);
         extentTest.log(LogStatus.PASS, "I see message invalid credentials");
     }
