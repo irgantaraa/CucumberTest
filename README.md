@@ -39,7 +39,7 @@ mvn test
 
 
 ## Link
-- **Simulasi Pengujian di YouTube:** [Tonton di sini](https://www.youtube.com/watch?v=6M-RE6JONKY&feature=youtu.be)
+- **Simulasi Pengujian di YouTube:** [Tonton di sini](https://youtu.be/24LNUAdggus)
 - **Spreadsheet Skenario Pengujian:** [Lihat di sini](https://docs.google.com/spreadsheets/d/15163Jwcj73jElUpOVxPjHr_Py5em-9fWa60BbagRU_o/edit?gid=332207421#gid=332207421)
 
 
